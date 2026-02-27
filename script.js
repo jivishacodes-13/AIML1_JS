@@ -69,7 +69,6 @@ result = (a<=b);
 document.write(result);
 document.write(linebreak);
 /**********Relational operators in JavaScript**********/
-// write a program to find the largest of three numbers using ternary operator
 /*var count;
 document.write("Starting loop" +"<br>");
 for(count=1; count<=10; count++){
@@ -77,12 +76,60 @@ for(count=1; count<=10; count++){
 }
 document.write("Loop ended");
 /**********Loops in JavaScript**********/
-const person ={
+/*const person ={
     fname : "Omika",
     lname : "Kumar",
     age : 18,
 }
 for (let x in person){
     console.log("Person's details  " + x + " is " + person[x]);
-}
+}*/
 /**********For in loop in JavaScript**********/
+/*var count = 0;
+document.write("Starting loop" +"<br>");
+while(count<10){
+    document.write("Current count = " + count + "<br>");
+    count++;
+}
+document.write("Loop ended");*/
+/**********While loop in JavaScript**********/
+/*var age =2;
+if(age>=18){
+    document.write("You are eligible to vote");
+}
+else{
+    document.write("You are minorrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr");
+}*/
+/**********If else statement in JavaScript**********/
+/*var grade ='A';
+document.write("Entering switch block <br/>");
+switch(grade){
+    case 'A':
+        document.write("SLAY");
+        break;
+    case 'B':
+        document.write("pretty gooood");
+        break;      
+    case 'C':
+        document.write("not bad");
+        break;  
+    case 'D':   
+        document.write("could be better");
+        break;  
+        default:
+        document.write("unknown grade");
+        }
+        document.write("<br/>Exiting switch block");    */        
+/**********Switch case statement in JavaScript**********/
+/*function myFunction(){
+    alert("HELLO WORLD HEHE");
+}
+function sayHello(name ,age){
+    document.write("Hello " + name + ", you are " + age + " years old.");
+}*/
+/**********Functions in JavaScript**********/   
+var res = mul(12,30);
+function mul(x,y){
+    return x*y;
+}
+document.write("The product of 12 and 30 is: " + res);

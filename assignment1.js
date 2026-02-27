@@ -25,4 +25,10 @@ document.write(linebreak);
 document.write("Value of a => (a%=b) = ");
 result = (a%=b);
 document.write(result); 
+// write a program to find the largest of three numbers using ternary operator
+var num1 = 10;
+var num2 = 20;
+var num3 = 30;
+var largest = (num1 > num2) ? ((num1 > num3) ? num1 : num3) : ((num2 > num3) ? num2 : num3);
+document.write("The largest number among " + num1 + ", " + num2 + ", and " + num3 + " is: " + largest);
 document.write(linebreak);
