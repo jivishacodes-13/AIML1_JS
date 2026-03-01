@@ -1,6 +1,6 @@
 //assignment operators in javascript
 var a = 10;
-var b = 20;
+var b = 30;
 var linebreak = "<br>";
 document.write("Value of a => (a=b) = ");
 result = (a=b);
