@@ -148,7 +148,7 @@ add2(10,20);*/
     }
 }
 console.log(person["address"] , person["isMarried"]);*/
-var person2 = new Object();
+/*var person2 = new Object();                                          // dyanamic object
 person2.name = "Omika Kumar";
 person2.age = 18;   
 person2.isMarried = false;
@@ -157,4 +157,32 @@ person2.address.street = "123 Main St";
 person2["address"]["flatNo"] = "6B";
 console.log(person2);
 /**********Objects in JavaScript**********/
- 
+/*var myinfo = new Array();
+var myinfo2 = Array();
+console.log(myinfo , myinfo2);
+ let collection =[
+    {},
+    [],
+    "john",
+    123,
+    true,
+    undefined,
+    null,
+    new Date(),
+    new String("Hello "),
+ ]
+    collection.teacherName = "Omika Kumar";
+    collection.phoneNO = 9911990022;
+    console.log(collection);
+ let arr = ["Omika", "cutu", 18, true];
+ console.log(arr.length-1);
+ arr.contact = "9911990022";
+    console.log(arr);
+arr[0] = "Omika Kumar";
+console.log(arr);*/
+/**********Arrays in JavaScript**********/
+const result = document.getElementById("para");
+result.innerHTML = "my self";
+result.title = "my name";
+const result2 = document.getElementsByClassName("para");
+result2.innerHTML = "Hiee" ;
