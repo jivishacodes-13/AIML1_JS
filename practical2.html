@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="./practical2.css">
+</head>
+
+<body>
+    <h1>Employee Management System</h1>
+    <form action="#">
+        <input type="text" id="empname" placeholder="Enter Employee Name">
+        <input type="number" id="empId" placeholder="Enter Employee ID">
+        <input type="number" id="salary" placeholder="Enter Employee Salary">
+        <input type="text" id="dept" placeholder="Enter Employee Department">
+    </form>
+    <br>
+    <button onclick="addEmployee()">Add Employee Info</button>
+    <button onclick="displayEmployees()">Display Employees</button>
+    <button onclick="filterSalary()">Salary > 50000</button>
+    <button onclick="totalSalary()">Total Salary</button>
+    <button onclick="averageSalary()">Average Salary</button>
+    <button onclick="countDepartment()">Count Department</button>
+    <div id="output"></div>
+    <script src="./practical2.js"></script>
+</body>
+</html>
