@@ -181,8 +181,29 @@ console.log(myinfo , myinfo2);
 arr[0] = "Omika Kumar";
 console.log(arr);*/
 /**********Arrays in JavaScript**********/
-const result = document.getElementById("para");
+/*const result = document.getElementById("para");
 result.innerHTML = "my self";
 result.title = "my name";
 const result2 = document.getElementsByClassName("para");
 result2.innerHTML = "Hiee" ;
+const element = document.getElementById("myId");
+let text = element.getAttribute("class");
+document.getElementById("demo").innerHTML = text;
+
+function myFunction(){
+    document.getElementById("myId").setAttribute("class", "democlass");
+}
+const heading = document.createElement("h2");
+const bodytag = document.getElementsByTagName("body");
+bodytag[0].append(heading);
+*/
+
+function practical(){
+    document.open();
+    document.write("<h1>HELLO WORLD</h1>");
+    document.close();
+}
+
+function onmouseover(){
+    console.log("On mouse over")
+}
