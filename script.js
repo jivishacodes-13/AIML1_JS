@@ -207,3 +207,6 @@ function practical(){
 function onmouseover(){
     console.log("On mouse over")
 }
+
+const s  = document.querySelector("input");
+  
